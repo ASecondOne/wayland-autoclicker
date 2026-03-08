@@ -1,0 +1,14 @@
+{
+  "uuid": "wayland-autoclicker@anotherone",
+  "name": "Wayland Autoclicker",
+  "description": "Adds a top-bar autoclicker menu that uses GNOME's Wayland-safe remote desktop portal for click injection.",
+  "shell-version": [
+    "49"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.wayland-autoclicker",
+  "version": 2,
+  "session-modes": [
+    "user"
+  ],
+  "url": "https://github.com/anotherone/autoclicker_gnome_extension"
+}

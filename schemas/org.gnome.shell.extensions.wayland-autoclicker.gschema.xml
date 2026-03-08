@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.wayland-autoclicker" path="/org/gnome/shell/extensions/wayland-autoclicker/">
+    <key name="clicks-per-second" type="i">
+      <default>10</default>
+      <range min="1" max="50"/>
+      <summary>Clicks per second</summary>
+      <description>How many clicks the autoclicker should emit every second when active.</description>
+    </key>
+    <key name="mouse-button" type="s">
+      <default>'left'</default>
+      <summary>Mouse button</summary>
+      <description>Which mouse button the autoclicker should press.</description>
+    </key>
+    <key name="restore-token" type="s">
+      <default>''</default>
+      <summary>Portal restore token</summary>
+      <description>Saved token returned by the GNOME remote desktop portal so access can be restored without prompting every time.</description>
+    </key>
+    <key name="toggle-shortcut" type="as">
+      <default><![CDATA[['F8']]]></default>
+      <summary>Toggle shortcut</summary>
+      <description>Keyboard shortcut used to toggle the autoclicker on and off.</description>
+    </key>
+  </schema>
+</schemalist>
