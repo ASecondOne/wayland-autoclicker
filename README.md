@@ -32,4 +32,3 @@ That script will:
 - The extension stores the portal restore token so later starts can be smoother.
 - It clicks at the current pointer location; it does not move the cursor before clicking.
 - If GNOME Shell does not discover the new extension live, log out and back in once.
-- Main extension files are [extension.js](/home/anotherone/Documents/Stuff With RUST/autoclicker_gnome_extension/extension.js), [prefs.js](/home/anotherone/Documents/Stuff With RUST/autoclicker_gnome_extension/prefs.js), and [metadata.json](/home/anotherone/Documents/Stuff With RUST/autoclicker_gnome_extension/metadata.json).
